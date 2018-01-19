@@ -3,11 +3,12 @@ version: '2'
 services:
 
   monero:
-    image: mine-monero
+    image: miner-monero
     container_name: monero-miner
     restart: unless-stopped
     environment:
-      - WALLET_ADDRESS="
+      - WALLET_ADDRESS=your wallet address
+      - POOL_ADDRESS=mining pool address
       
       
       
