@@ -2,7 +2,7 @@
 CPU mining on Ubuntu 14 or higher  using Docker
 
 
-[![Docker]( https://img.shields.io/travis/rust-lang/rust.svg?organization=anecula&repository=CPU-mining-on-Docker-Ubuntu)](https://hub.docker.com/r/anecula/CPU-mining-on-Docker-Ubuntu/builds)
+[![Docker]( https://img.shields.io/travis/rust-lang/rust.svg?organization=anecula&repository=cpu-mining-on-docker-ubuntu)](https://hub.docker.com/r/anecula/cpu-mining-on-docker-ubuntu/builds)
 
 ## Prerequisite
 Before you start mining with Docker, you need to install it:
