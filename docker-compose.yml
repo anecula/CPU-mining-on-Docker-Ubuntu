@@ -7,4 +7,12 @@ services:
     container_name: monero-miner
     restart: unless-stopped
     environment:
-      - WALLET_ADDRESS=andra.gabr@gmail.com
+      - WALLET_ADDRESS="
+      
+      
+      
+      
+      
+      
+      
+      
