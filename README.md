@@ -1,4 +1,4 @@
-# CPU-mining-on-Docker-Ubuntu
+# CPUMiner-Multi-on-Docker-Ubuntu 
 CPU mining on Ubuntu 14 or higher  using Docker
 
 
@@ -13,6 +13,7 @@ Before you start mining with Docker, you need to install it:
 
  For this example I create an account on [minergate.com](https://minergate.com/) [feel free to use whatever pool you choose)
  
+ 
 # Start mining in 2 minutes
 
 1. Download the [docker-compose.yml](https://raw.githubusercontent.com/anecula/CPU-mining-on-Docker-Ubuntu/master/docker-compose.yml) file on your host
@@ -26,6 +27,8 @@ Before you start mining with Docker, you need to install it:
       - WALLET_ADDRESS=andra.gabr@gmail.com
       - POOL_ADDRESS=stratum+tcp://xmr.pool.minergate.com:45560
   ```
+  WALLET_ADDRES: should be the mail addres used to signup on minegrate.com
+  You can choose your pool addres for  CPUMiner-Multi Miner from here https://minergate.com/altminers/cpuminer-multi-wolf
 2. Run command: `docker-compose up -d`
 3. See your container with: `docker ps`
 * make sure that you followed the Prerequisite and installed docker and docker-compose.
