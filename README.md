@@ -28,9 +28,12 @@ Before you start mining with Docker, you need to install it:
       - POOL_ADDRESS=stratum+tcp://xmr.pool.minergate.com:45560
   ```
   WALLET_ADDRES: should be the mail addres used to signup on minegrate.com
-  You can choose your pool addres for  CPUMiner-Multi Miner from here https://minergate.com/altminers/cpuminer-multi-wolf
-2. Run command: `docker-compose up -d`
-3. See your container with: `docker ps`
+  You can choose your pool addres for  CPUMiner-Multi Miner from here https://minergate.com/altminers/cpuminer-multi-wolf 
+  
+2. Run command: `docker-compose up -d` 
+
+3. See your container with: `docker ps` 
+
 * make sure that you followed the Prerequisite and installed docker and docker-compose.
 
 If everything worked as expected and you can see your container Healthy/up and running go on Minegrad site and check your Dashboard (https://minergate.com/internal)
