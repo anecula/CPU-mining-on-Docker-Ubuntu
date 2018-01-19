@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+
+  monero:
+    image: mine-monero
+    container_name: monero-miner
+    restart: unless-stopped
+    environment:
+      - WALLET_ADDRESS=andra.gabr@gmail.com
